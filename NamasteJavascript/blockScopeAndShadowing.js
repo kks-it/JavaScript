@@ -35,3 +35,10 @@ let a = 10;
     let a = 30; // this a is block-scoped and in the block, a is not declared yet. Hence, no error.
     console.log(a); // 30
 }
+
+
+var b = 10;
+{
+    let b = 20; // this b is block-scoped and in the block, b is not declared yet. Hence, no error.
+    console.log(b); // 20
+}
